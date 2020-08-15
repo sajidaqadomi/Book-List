@@ -1,0 +1,27 @@
+.book-list {
+    ul {
+        padding: 15px 0;
+
+        .book-item {
+            background-color: $listBgColor;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            padding: 15px 10px;
+
+            &:hover {
+                cursor: pointer;
+
+                .title,
+                .auther {
+                    text-decoration: line-through;
+                }
+            }
+
+            .title {
+                font-weight: 600;
+
+            }
+
+        }
+    }
+}
